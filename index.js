@@ -235,6 +235,3 @@ app.get('/domain-metrics', async (req, res) => {
 // app.listen(port, () => {
 //     console.log(`Server running at http://localhost:${port}`);
 // });
-app.use("/.netlify/functions/index");
-
-module.exports.hundler = serverless(app)
